@@ -5,18 +5,13 @@ library(dplyr)
 library(SummarizedExperiment)
 library(tidyr)
 
-export.SummarizedExperiment_GEO <- function(GEOID){
+ExportSummarizedExperiment <- function(GEOID, summary){
     ###  Check user input
     ### user input a GEOID
-    GEOID="GSE83894"  ### taking this GSE83894 as an example
+    # GEOID="GSE83894"  ### taking this GSE83894 as an example
     
     #connecting to SQL database in R
-    con <- DBI::dbConnect(RSQLite::SQLite(), dbname = "mprabase_v4_6.db")
-    
-    # load summary file
-    summary=read.table("summary_sampleID.csv",header=T,sep=',')
-    search_table=summary
-    metaSE1=filter(search_table, GEO_number==GEOID)
+    con <- DBI::dbConnect(RSQLite::SQLite(), dbname = "../data/mprabase_v4_6.db")
     
     ## read from db to dataframe
     
@@ -52,8 +47,11 @@ export.SummarizedExperiment_GEO <- function(GEOID){
     #coord_all_table$end=as.numeric(coord_all_table$end)
     
     mcols(gr) = subset(coord_all_table,select=-c(seqnames,start,end,sample_id,element_sample_id))
+    
     #### making SummarizedExperiment
-    SE1=SummarizedExperiment(assays=list(ratio=(as.matrix(coord_all_table$score))),rowRanges=gr,colData=colData)
-    metadata(SE1)=metaSE1
-    return SE1
+    SE1=SummarizedExperiment(assays=list(ratio=(as.matrix(coord_all_table$score))),
+                             rowRanges=gr,
+                             colData=colData)
+    metadata(SE1)=summary
+    return(SE1)
 }

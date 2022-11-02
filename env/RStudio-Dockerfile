@@ -2,5 +2,4 @@ FROM rocker/rstudio:latest
 
 RUN R -e "install.packages(c('BiocManager', 'tidyr', 'dplyr', 'devtools'), repos='http://cran.us.r-project.org')"
 RUN R -e "install.packages(c('dbplyr', 'RSQLite', 'DBI'), repos='http://cran.us.r-project.org')"
-RUN R -e "BiocManager::install('SummarizedExperiment','BiocStyle')"
-RUN R -e "BiocManager::install('iSEE', dependencies = TRUE)"
+RUN R -e "BiocManager::install(c('SummarizedExperiment','BiocStyle','iSEE'), dependencies=TRUE)"
