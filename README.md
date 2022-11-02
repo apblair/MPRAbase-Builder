@@ -2,11 +2,11 @@
 
 ## Environment dev-v0.1
 
-Follow these commands:
+For development v0.1 test, please have Docker installed locally and run these commands:
 
 ```bash
 $ screen -S mpra-base
 $ bash run.sh
 ```
 
-Once the container is running, open a web-browser and navigate to: http://localhost:1000
+Once the container is live, open a web-browser and navigate to: http://localhost:1000
