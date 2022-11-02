@@ -1,0 +1,10 @@
+FROM jupyter/datascience-notebook:latest
+
+USER root
+
+RUN R -e "install.packages(c('BiocManager', 'tidyr', 'dplyr'), repos='http://cran.us.r-project.org')"
+RUN R -e "install.packages(c('dbplyr', 'RSQLite', 'DBI'), repos='http://cran.us.r-project.org')"
+RUN R -e "BiocManager::install('SummarizedExperiment','BiocStyle')"
+
+USER $NB_UID
+RUN pip install --user pytest
