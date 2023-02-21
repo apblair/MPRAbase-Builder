@@ -1,14 +1,13 @@
 # MPRAbase
 
-## Environment: Branch dev-v0.1
+A package interface that provides access to MPRA datasets hosted on Synapse Sage Bionetworks.
+
+## Environment
 
 Please have Docker installed locally and run the following commands:
 
 ```bash
-$ screen -S mpra-base
-$ bash mprabase-rstudio.sh # or mprabase-jupyterlab.sh
+$ bash run-MPRAbase-JupyterLab.sh
 ```
 
-Once the container is live, open a web-browser and navigate to: http://localhost:1000
-
-**Note**: The R library(MPRAbase) will be developed in container: apblair/mprabase:rstudio-dev-v0.1 
+Once the container is running, open a web-browser and navigate to: http://localhost:1000
