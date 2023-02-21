@@ -1,7 +1,6 @@
 # MPRAbase
 
-A package interface that provides access to MPRA datasets hosted on Synapse Sage Bionetworks.
-
+A repository for building standardized objects for MPRAbase.
 ## Environment
 
 Please have Docker installed locally and run the following commands:
