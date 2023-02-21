@@ -1,0 +1,57 @@
+PMID,GEO_number,SRP_number,labs,sample_name,number_of_elements,Library_strategy,Organism,Cell_line_tissue,DNA_RNA_reps
+27831498,GSE83894,,"Shendure,Ahituv",Mutant_integrase_HepG2,2440,lentiMPRA,Homo sapiens,HepG2,3
+27831498,GSE83894,,"Shendure,Ahituv",Wild-type_integrase_HepG2,2440,lentiMPRA,Homo sapiens,HepG2,3
+30045748,GSE113978,,Shendure,Klein_STARR_Tiling_HepG2,5218,STARR-seq,Homo sapiens,HepG2,3
+30045748,GSE113978,,Shendure,Klein_STARR_Orthologs_HepG2,5218,STARR-seq,Homo sapiens,HepG2,3
+23892608,,SRP018414,"Ahituv,Ovcharenko,Shendure",Robin_MPRA_mouse,4966,plasmid,Mus musculus,mouse liver,3
+23892608,,SRP018414,"Ahituv,Ovcharenko,Shendure",Robin_Hepg2,4966,plasmid,Homo sapiens,HepG2,3
+23328393,GSE40739,,Stark,S2 STARR-seq,8384,STARR-seq,Drosophila melanogaster,S2 cells,2
+23328393,GSE40739,,Stark,OSC STARR-seq,6733,STARR-seq,Drosophila melanogaster,OSC cells,2
+23328393,GSE40739,,Stark,HeLa_BAC_STARRseq,6,STARR-seq,Homo sapiens,Hela,1
+30568279,GSE104001,,"Kellis,Claussnitzer",Wang_HiDRA_ GM12878,,plasmid,Homo sapiens,GM12878,5
+30622120,GSE118242,,Segal,Systematic_Interrogation_of_Human_Promoters,15753,plasmid,Homo sapiens,K562,1
+33046894,GSE142696,,"Shendure,Ahituv",55_Mutant_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,4
+33046894,GSE142696,,"Shendure,Ahituv",55_Wild-type_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,4
+33046894,GSE142696,,"Shendure,Ahituv",53_Mutant_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,4
+33046894,GSE142696,,"Shendure,Ahituv",53_Wild-type_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",33_Mutant_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",33_Wild-type_integrase_HepG2,2439,lentiMPRA,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",ORI_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",HSS_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",ORI_full_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",HSS_full_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",ORI_b2_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",HSS_b2_HepG2,2439,STARR-seq,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",pGL4_HepG2,2439,plasmid,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",shortMedLong_HepG2,6908,lentiMPRA,Homo sapiens,HepG2,3
+33046894,GSE142696,,"Shendure,Ahituv",forwardReverse_HepG2,2337,lentiMPRA,Homo sapiens,HepG2,3
+32043966,GSE120240,,Cohen,gWT/gMUT library,815,plasmid,Mus musculus,mESC,3
+32043966,GSE120240,,Cohen,SYN library,625,plasmid,Mus musculus,mESC,3
+32483191,GSE129250,,Brown,HEK_Lib1,32580,lentiMPRA,Homo sapiens,HEK293FT,4
+32483191,GSE129250,,Brown,HEK_Lib2,36660,lentiMPRA,Homo sapiens,HEK293FT,2
+32483191,GSE129250,,Brown,UACC_Lib1,32580,lentiMPRA,Homo sapiens,UACC903,2
+32483191,GSE129250,,Brown,UACC_Lib2,36660,lentiMPRA,Homo sapiens,UACC903,4
+27311442,GSE77213,,"Gray,Hemberg",TN03_E_Un,,plasmid,Mus musculus,E16 cortical neurons,2
+27311442,GSE77213,,"Gray,Hemberg",TN03_E_KCl,,plasmid,Mus musculus,E16 cortical neurons,2
+27311442,GSE77213,,"Gray,Hemberg",TN03_P_Un,,plasmid,Mus musculus,E16 cortical neurons,2
+27311442,GSE77213,,"Gray,Hemberg",TN03_P_KCl,,plasmid,Mus musculus,E16 cortical neurons,2
+27311442,GSE77213,,"Gray,Hemberg",TN04_E_Un,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN04_E_KCl,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN04_P_Un,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN04_P_KCl,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_E_Un,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_E_KCl,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_E_Un_DN,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_E_KCl_DN,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_P_Un,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_P_KCl,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_P_Un_DN,,plasmid,Mus musculus,E16 cortical neurons,3
+27311442,GSE77213,,"Gray,Hemberg",TN05_P_KCl_DN,,plasmid,Mus musculus,E16 cortical neurons,3
+25340400,,SRP044727,"Ahituv,Shendure",SORL1_eExon_17_Hela,"16,483",plasmid,Homo sapiens,Hela,1
+25340400,,SRP044727,"Ahituv,Shendure",PPRAG_eExon_6_Hela,"22,320",plasmid,Homo sapiens,Hela,1
+25340400,,SRP044727,"Ahituv,Shendure",TRAF3IP2_eExon_2_Hela,"10,029",plasmid,Homo sapiens,Hela,1
+28137873,GSE84888,,Lander,pool5_3T3-L1,3075,plasmid,Mus musculus,3T3,1
+28137873,GSE84888,,Lander,pool6_3T3-L1,3720,plasmid,Mus musculus,3T3,1
+28137873,GSE84888,,Lander,pool7_3T3-L1,3243,plasmid,Mus musculus,3T3,1
+31631012,GSE115046,,"Yosef,Ahituv",Neural_MPRA,"239,760",lentiMPRA,Homo sapiens,H1 hESC,3
+29388765,GSE108535,,Kosuri,Census,10898,plasmid,Escherichia coli,Escherichia coli,5
