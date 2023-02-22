@@ -12,3 +12,4 @@ RUN R -e "BiocManager::install(c('MultiAssayExperiment'), dependencies=TRUE)"
 USER $NB_UID
 RUN pip install --user pytest
 RUN pip install --user synapseclient
+RUN conda install -c conda-forge pandoc
